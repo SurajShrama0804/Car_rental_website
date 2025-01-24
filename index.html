@@ -6,15 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
     <nav class="nav">
         <div class="logo">
-            <h1>DeveloperGTM</h1>
+            <h1>Car On Rent</h1>
         </div>
 
         <div class="item">
@@ -35,8 +33,7 @@
         <div class="main-sec">
             <div class="left">
                 <p class="txt1">Easy And Fast Way To <span style="color: #0043ff8c;">Rent</span> Your Car</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore accusamus nobis similique ab
-                    praesentium itaque dolore quidem debitis distinctio laborum!</p>
+                <p>Discover a wide variety of cars for rent, with affordable pricing and flexible options. Whether you need a compact car, SUV, or luxury vehicle, we've got you covered!</p>
                 <div class="btn">
                     <input class="car" type="button" value="Rent Car">
                 </div>
@@ -52,23 +49,17 @@
         <div class="main-sec">
             <div class="pick">
                 <label for="location">Pick Up Location</label>
-                <p><i class="fa-solid fa-location-dot"></i> Mumbai,India</p>
+                <input type="text" id="location" name="location" placeholder="Enter your location">
             </div>
 
             <div class="pick">
-                <label for="location">Pick Up Location</label>
-                <p><i class="fa-solid fa-location-dot"></i> Surat,India</p>
+                <label for="pickup-date">Pick Up Date</label>
+                <input type="date" id="pickup-date" name="pickup-date">
             </div>
 
             <div class="pick">
-                <label for="location">Pick Up Date</label>
-                <p><i class="fa-solid fa-calendar-days"></i> 14-02-2024</p>
-                <!-- <input type="date" name="date" id=""> -->
-            </div>
-
-            <div class="pick">
-                <label for="location">Return Date</label>
-                <p><i class="fa-solid fa-calendar-days"></i> 16-02-2024</p>
+                <label for="return-date">Return Date</label>
+                <input type="date" id="return-date" name="return-date">
             </div>
 
             <div class="pick">
@@ -80,18 +71,15 @@
     <section class="car-sec">
         <div class="txt">
             <p class="txt1">Latest <span>Inventory</span></p>
-            <p class="txt2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ipsa!</p>
+            <p class="txt2">Explore our newest car models, featuring advanced technology, comfort, and style. Find your perfect ride today!</p>
         </div>
 
         <div class="main-sec">
+            <!-- Car Boxes with details -->
             <div class="box">
-                <img style="width: 365px;"
-                    src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8fA%3D%3D"
-                    alt="">
+                <img style="width: 365px;" src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8fA%3D%3D" alt="">
                 <div class="details">
-
                     <p class="car-name">Lamborghini Super Car</p>
-
                     <div class="review">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -100,16 +88,14 @@
                         <i class="fa-regular fa-star-half-stroke"></i>
                         <p>( 10k Reviews )</p>
                     </div>
-
                     <div class="feature">
-                        <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-chair"></i> Leather Seats</p>
+                        <p><i class="fa-solid fa-charging-station"></i> Electric Charging</p>
+                        <p><i class="fa-solid fa-car-battery"></i> Long Battery Life</p>
+                        <p><i class="fa-solid fa-cable-car"></i> Smooth Transmission</p>
+                        <p><i class="fa-solid fa-car-side"></i> Sleek Design</p>
+                        <p><i class="fa-solid fa-caravan"></i> Spacious Interior</p>
                     </div>
-
                     <div class="price">
                         <p>3.22 Crore</p>
                         <button>Book Now</button>
@@ -123,28 +109,27 @@
                     alt="">
                 <div class="details">
 
-                    <p class="car-name">Lamborghini Super Car</p>
-
+                    <p class="car-name">Mercedes-Benz Sedan</p>
                     <div class="review">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-regular fa-star-half-stroke"></i>
-                        <p>( 10k Reviews )</p>
+                        <p>( 12k Reviews )</p>
                     </div>
 
                     <div class="feature">
-                        <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-chair"></i> Premium Comfort</p>
+                        <p><i class="fa-solid fa-charging-station"></i> Hybrid Engine</p>
+                        <p><i class="fa-solid fa-car-battery"></i> Efficient Battery</p>
+                        <p><i class="fa-solid fa-cable-car"></i> Advanced Navigation</p>
+                        <p><i class="fa-solid fa-car-side"></i> Aerodynamic Build</p>
+                        <p><i class="fa-solid fa-caravan"></i> Luxurious Finish</p>
                     </div>
 
                     <div class="price">
-                        <p>3.22 Crore</p>
+                        <p>2.75 Crore</p>
                         <button>Book Now</button>
                     </div>
                 </div>
@@ -154,30 +139,28 @@
                 <img style="width: 365px;"
                     src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FyfGVufDB8fDB8fHww"
                     alt="">
-                <div class="details">
-
-                    <p class="car-name">Lamborghini Super Car</p>
-
-                    <div class="review">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star-half-stroke"></i>
-                        <p>( 10k Reviews )</p>
-                    </div>
-
-                    <div class="feature">
-                        <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
-                    </div>
-
+                    <div class="details">
+                        <p class="car-name">Ferrari LaFerrari</p>
+                    
+                        <div class="review">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                            <p>(8.5k Reviews)</p>
+                        </div>
+                    
+                        <div class="feature">
+                            <p><i class="fa-solid fa-chair"></i> 2-Seater</p>
+                            <p><i class="fa-solid fa-charging-station"></i> Hybrid V12 Engine</p>
+                            <p><i class="fa-solid fa-car-battery"></i> High-Performance Battery</p>
+                            <p><i class="fa-solid fa-cable-car"></i> Carbon-Fiber Body</p>
+                            <p><i class="fa-solid fa-car-side"></i> Butterfly Doors</p>
+                            <p><i class="fa-solid fa-caravan"></i> Luxurious Leather Interiors</p>
+                        </div>
                     <div class="price">
-                        <p>3.22 Crore</p>
+                        <p>42 Crore</p>
                         <button>Book Now</button>
                     </div>
                 </div>
@@ -187,101 +170,99 @@
                 <img style="width: 365px;"
                     src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2FyfGVufDB8fDB8fHww"
                     alt="">
-                <div class="details">
-
-                    <p class="car-name">Lamborghini Super Car</p>
-
-                    <div class="review">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star-half-stroke"></i>
-                        <p>( 10k Reviews )</p>
-                    </div>
-
-                    <div class="feature">
-                        <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
-                    </div>
-
-                    <div class="price">
-                        <p>3.22 Crore</p>
-                        <button>Book Now</button>
+                    <div class="details">
+                        <p class="car-name">Bugatti Chiron</p>
+                    
+                        <div class="review">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                            <p>(12k Reviews)</p>
+                        </div>
+                    
+                        <div class="feature">
+                            <p><i class="fa-solid fa-chair"></i> 2-Seater</p>
+                            <p><i class="fa-solid fa-charging-station"></i> W16 Quad-Turbo Engine</p>
+                            <p><i class="fa-solid fa-car-battery"></i> 1500 Horsepower</p>
+                            <p><i class="fa-solid fa-cable-car"></i> Top Speed of 420 km/h</p>
+                            <p><i class="fa-solid fa-car-side"></i> Aerodynamic Masterpiece</p>
+                            <p><i class="fa-solid fa-caravan"></i> Exquisite Handcrafted Interiors</p>
+                        </div>
+                    
+                        <div class="price">
+                            <p>Price: ₹29 Crore</p>
+                            <button>Book Now</button>
+                        </div>
                     </div>
                 </div>
-            </div>
+                    
 
             <div class="box">
                 <img style="width: 365px;"
                     src="https://images.unsplash.com/photo-1590362891991-f776e747a588?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGNhcnxlbnwwfHwwfHx8MA%3D%3D"
                     alt="">
-                <div class="details">
-
-                    <p class="car-name">Lamborghini Super Car</p>
-
-                    <div class="review">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star-half-stroke"></i>
-                        <p>( 10k Reviews )</p>
-                    </div>
-
-                    <div class="feature">
-                        <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
-                    </div>
-
-                    <div class="price">
-                        <p>3.22 Crore</p>
-                        <button>Book Now</button>
+                    <div class="details">
+                        <p class="car-name">McLaren P1</p>
+                    
+                        <div class="review">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <p>(9k Reviews)</p>
+                        </div>
+                    
+                        <div class="feature">
+                            <p><i class="fa-solid fa-chair"></i> 2-Seater</p>
+                            <p><i class="fa-solid fa-charging-station"></i> Plug-in Hybrid System</p>
+                            <p><i class="fa-solid fa-car-battery"></i> 903 Horsepower</p>
+                            <p><i class="fa-solid fa-cable-car"></i> Top Speed of 350 km/h</p>
+                            <p><i class="fa-solid fa-car-side"></i> Advanced Aerodynamics</p>
+                            <p><i class="fa-solid fa-caravan"></i> Carbon Fiber Monocoque</p>
+                        </div>
+                    
+                        <div class="price">
+                            <p>Price: ₹16 Crore</p>
+                            <button>Book Now</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
             <div class="box">
                 <img style="width: 365px;"
                     src="https://images.unsplash.com/photo-1541443131876-44b03de101c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGNhcnxlbnwwfHwwfHx8MA%3D%3D"
                     alt="">
-                <div class="details">
-
-                    <p class="car-name">Lamborghini Super Car</p>
-
-                    <div class="review">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star-half-stroke"></i>
-                        <p>( 10k Reviews )</p>
-                    </div>
-
-                    <div class="feature">
-                        <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
-                        <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
-                    </div>
-
-                    <div class="price">
-                        <p>3.22 Crore</p>
-                        <button>Book Now</button>
+                    <div class="details">
+                        <p class="car-name">Aston Martin Valkyrie</p>
+                    
+                        <div class="review">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <p>(7k Reviews)</p>
+                        </div>
+                    
+                        <div class="feature">
+                            <p><i class="fa-solid fa-chair"></i> 2-Seater</p>
+                            <p><i class="fa-solid fa-charging-station"></i> 6.5L V12 Engine</p>
+                            <p><i class="fa-solid fa-car-battery"></i> 1,160 Horsepower</p>
+                            <p><i class="fa-solid fa-cable-car"></i> Top Speed of 402 km/h</p>
+                            <p><i class="fa-solid fa-car-side"></i> F1-Inspired Aerodynamics</p>
+                            <p><i class="fa-solid fa-caravan"></i> Full Carbon Fiber Structure</p>
+                        </div>
+                    
+                        <div class="price">
+                            <p>Price: ₹45 Crore</p>
+                            <button>Book Now</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="btn">
+          <div class="btn">
                 <input type="button" value="View All">
             </div>
         </div>
@@ -289,109 +270,113 @@
 
     <section class="support-sec">
         <div class="txt">
-            <p class="txt1">Why <span>Choose</span> Us</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, cupiditate!</p>
+            <p class="txt1">Why <span>Choose</span> Us?</p>
+            <p>We offer unmatched quality, innovation, and customer service. Our team is dedicated to providing top-tier products and exceptional experiences, ensuring your satisfaction every step of the way.</p>
         </div>
+    </section>
 
-        <div class="main-sec">
-            <div class="box">
-                <i class="fa-solid fa-phone"></i>
-                <div class="txt-sec">
-                    <p class="txt1">24 Hour Support</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque sequi animi ab
-                        corporis, necessitatibus eum cum vel rerum nisi.</p>
-                </div>
-            </div>
-
-            <div class="box">
-                <i class="fa-solid fa-flag-checkered"></i>
-                <div class="txt-sec">
-                    <p class="txt1">Best Price</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque sequi animi ab
-                        corporis, necessitatibus eum cum vel rerum nisi.</p>
-                </div>
-            </div>
-
-            <div class="box">
-                <i class="fa-solid fa-certificate"></i>
-                <div class="txt-sec">
-                    <p class="txt1">Verified License</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque sequi animi ab
-                        corporis, necessitatibus eum cum vel rerum nisi.</p>
-                </div>
-            </div>
-
-            <div class="box">
-                <i class="fa-regular fa-circle-xmark"></i>
-                <div class="txt-sec">
-                    <p class="txt1">Free Cancelation</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque sequi animi ab
-                        corporis, necessitatibus eum cum vel rerum nisi.</p>
-                </div>
+    <div class="main-sec">
+        <div class="box">
+            <i class="fa-solid fa-phone"></i>
+            <div class="txt-sec">
+                <p class="txt1">24/7 Customer Support</p>
+                <p>Our dedicated support team is available around the clock to assist you with any inquiries or concerns. Whether it's day or night, we're here to ensure your experience is seamless and hassle-free.</p>
             </div>
         </div>
+    </div>
+
+    <div class="box">
+        <i class="fa-solid fa-flag-checkered"></i>
+        <div class="txt-sec">
+            <p class="txt1">Unbeatable Prices</p>
+            <p>We guarantee the best value for your investment. Our pricing is designed to offer you top-quality products without compromising on affordability. Get the best deal, every time!</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fa-solid fa-certificate"></i>
+        <div class="txt-sec">
+            <p class="txt1">Certified & Verified</p>
+            <p>We are fully licensed and certified, ensuring that our services meet the highest industry standards. Our verified credentials provide peace of mind, guaranteeing trust and reliability in everything we do.</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fa-regular fa-circle-xmark"></i>
+        <div class="txt-sec">
+            <p class="txt1">Free Cancellation</p>
+            <p>Enjoy peace of mind with our flexible cancellation policy. If your plans change, you can cancel without any extra charges, ensuring a hassle-free experience from start to finish.</p>
+        </div>
+    </div>
+</div>
     </section>
 
     <section class="achie-sec">
         <div class="txt">
-            <p class="txt1">Our <span>Achievement</span></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident.</p>
+            <p class="txt1">Our <span class="highlight">Achievements</span></p>
+            <p class="description">We are proud of our accomplishments. From groundbreaking innovations to excellence in various domains, our journey continues to inspire and make a lasting impact.</p>
         </div>
-
+    
         <div class="main-sec">
             <div class="box">
                 <p class="txt1">4000+</p>
-                <p>Active Member</p>
+                <p class="sub-text">Active Members</p>
+                <p class="description">Join a thriving community committed to growth, innovation, and collaboration.</p>
             </div>
-
+    
             <div class="box">
                 <p class="txt1">3000+</p>
-                <p>Car Color</p>
+                <p class="sub-text">Car Colors Available</p>
+                <p class="description">Explore a wide variety of car colors that fit your unique style and personality.</p>
             </div>
-
+    
             <div class="box">
                 <p class="txt1">6000+</p>
-                <p>Car Model</p>
+                <p class="sub-text">Car Models Available</p>
+                <p class="description">Choose from an extensive selection of car models tailored to your preferences and needs.</p>
             </div>
-
+    
             <div class="box">
-                <p class="txt1">10k</p>
-                <p>Positive Rating</p>
+                <p class="txt1">10k+</p>
+                <p class="sub-text">Positive Ratings</p>
+                <p class="description">Our commitment to quality and service is reflected in the thousands of positive ratings from satisfied customers.</p>
             </div>
         </div>
     </section>
+    
 
     <section class="start-sec">
         <div class="main-sec">
             <div class="left">
-                <p class="txt1">Ready To Get Start?</p>
-                <p class="txt2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus ipsa eos neque quo consectetur totam perferendis aut quos sequi expedita.</p>
+                <p class="txt1">Ready to Get Started?</p>
+                <p class="txt2">We’re here to help you take the next step. Whether you're looking for more information or ready to dive in, we’ve got you covered with expert guidance and support.</p>
                 <div class="btn">
                     <button>Contact Us</button>
                 </div>
             </div>
-
+    
             <div class="right">
-                <img src="verna.png" alt="">
+                <img src="verna.png" alt="Car Model">
             </div>
         </div>
     </section>
+    
 
     <footer class="foot-sec">
         <div class="logo">
             <h1>DeveloperGTM</h1>
         </div>
-
+    
         <div class="copy">
-            <p>Copyright &copy; 2024 Design By DeveloperGTM</p>
+            <p>&copy; 2024 DeveloperGTM. All Rights Reserved.</p>
         </div>
-
+    
         <div class="item">
-            <a href="/">Website Terms</a>
-            <a href="/">Contact Us</a>
-            <a href="/">Privacy Policy</a>
+            <a href="/" class="footer-link">Website Terms</a>
+            <a href="/" class="footer-link">Contact Us</a>
+            <a href="/" class="footer-link">Privacy Policy</a>
         </div>
-    </footer>
+    </footer>    
 </body>
 
 </html>
