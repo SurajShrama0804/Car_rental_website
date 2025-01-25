@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Car</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="logo">
+            <h1>Car On Rent</h1>
+        </div>
+
+        <div class="item">
+            <a class="home-btn" href="/">Home</a>
+            <a href="/">Rent Car</a>
+            <a href="/">Contact Us</a>
+            <a href="/">About Us</a>
+            <a href="/">Blog</a>
+        </div>
+
+        <div class="btn">
+            <button class="login">Log in</button>
+            <button>Sign Up</button>
+        </div>
+    </nav>
+
+    <div class="home">
+        <div class="main-sec">
+            <div class="left">
+                <p class="txt1">Easy And Fast Way To <span style="color: #0043ff8c;">Rent</span> Your Car</p>
+                <p>Discover a wide variety of cars for rent, with affordable pricing and flexible options. Whether you need a compact car, SUV, or luxury vehicle, we've got you covered!</p>
+                <div class="btn">
+                    <button class="car">Rent Car</button>
+                </div>
+            </div>
+
+            <div class="right">
+                <img src="bmw-22428.png" alt="BMW Car">
+            </div>
+        </div>
+    </div>
+
+    <section class="loc-sec">
+        <div class="main-sec">
+            <div class="pick">
+                <label for="location">Pick Up Location</label>
+                <input type="text" id="location" name="location" placeholder="Enter your location">
+            </div>
+
+            <div class="pick">
+                <label for="pickup-date">Pick Up Date</label>
+                <input type="date" id="pickup-date" name="pickup-date">
+            </div>
+
+            <div class="pick">
+                <label for="return-date">Return Date</label>
+                <input type="date" id="return-date" name="return-date">
+            </div>
+
+            <div class="pick">
+                <button>Search Car</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="car-sec">
+        <div class="txt">
+            <p class="txt1">Latest <span>Inventory</span></p>
+            <p class="txt2">Explore our newest car models, featuring advanced technology, comfort, and style. Find your perfect ride today!</p>
+        </div>
+
+        <div class="main-sec">
+            <!-- Car Boxes with details -->
+            <div class="box">
+                <img style="width: 365px;" src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8fA%3D%3D" alt="Lamborghini Super Car">
+                <div class="details">
+                    <p class="car-name">Lamborghini Super Car</p>
+                    <div class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <p>(10k Reviews)</p>
+                    </div>
+                    <div class="feature">
+                        <p><i class="fa-solid fa-chair"></i> Leather Seats</p>
+                        <p><i class="fa-solid fa-charging-station"></i> Electric Charging</p>
+                        <p><i class="fa-solid fa-car-battery"></i> Long Battery Life</p>
+                        <p><i class="fa-solid fa-cable-car"></i> Smooth Transmission</p>
+                        <p><i class="fa-solid fa-car-side"></i> Sleek Design</p>
+                        <p><i class="fa-solid fa-caravan"></i> Spacious Interior</p>
+                    </div>
+                    <div class="price">
+                        <p>₹3.22 Crore</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img style="width: 365px;"
+                    src="https://th.bing.com/th/id/OIP.c3_p7yLc8ojK8z-JF_pKggHaEK?rs=1&pid=ImgDetMain"
+                    alt="Mercedes-Benz Sedan">
+                <div class="details">
+                    <p class="car-name">Mercedes-Benz Sedan</p>
+                    <div class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <p>(12k Reviews)</p>
+                    </div>
+
+                    <div class="feature">
+                        <p><i class="fa-solid fa-chair"></i> Premium Comfort</p>
+                        <p><i class="fa-solid fa-charging-station"></i> Hybrid Engine</p>
+                        <p><i class="fa-solid fa-car-battery"></i> Efficient Battery</p>
+                        <p><i class="fa-solid fa-cable-car"></i> Advanced Navigation</p>
+                        <p><i class="fa-solid fa-car-side"></i> Aerodynamic Build</p>
+                        <p><i class="fa-solid fa-caravan"></i> Luxurious Finish</p>
+                    </div>
+
+                    <div class="price">
+                        <p>₹2.75 Crore</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img style="width: 365px;"
+                    src="data:image/jpeg;base64,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"
+                    alt="Ferrari LaFerrari">
+                <div class="details">
+                    <p class="car-name">Ferrari LaFerrari</p>
+                    <div class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <p>(8.5k Reviews)</p>
+                    </div>
+                    <div class="feature">
+                        <p><i class="fa-solid fa-chair"></i> 2-Seater</p>
+                        <p><i class="fa-solid fa-charging-station"></i> Hybrid V12 Engine</p>
+                        <p><i class="fa-solid fa-car-battery"></i> High-Performance Battery</p>
+                        <p><i class="fa-solid fa-cable-car"></i> Carbon-Fiber Body</p>
+                        <p><i class="fa-solid fa-car-side"></i> Butterfly Doors</p>
+                        <p><i class="fa-solid fa-caravan"></i> Luxurious Leather Interiors</p>
+                    </div>
+                    <div class="price">
+                        <p>₹42 Crore</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img style="width: 365px;"
+                    src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2FyfGVufDB8fDB8fHww"
+                    alt="Bugatti Chiron">
+                <div class="details">
+                    <p class="car-name">Bugatti Chiron</p>
+                    <div class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <p>(12k Reviews)</p>
+                    </div>
+                    <div class="feature">
+                        <p><i class="fa-solid fa-chair"></i> 2-Seater</p>
+                        <p><i class="fa-solid fa-charging-station"></i> W16 Quad-Turbo Engine</p>
+                        <p><i class="fa-solid fa-car-battery"></i> 1500 Horsepower</p>
+                        <p><i class="fa-solid fa-cable-car"></i> Top Speed of 420 km/h</p>
+                        <p><i class="fa-solid fa-car-side"></i> Aerodynamic Masterpiece</p>
+                        <p><i class="fa-solid fa-caravan"></i> Exquisite Handcrafted Interiors</p>
+                    </div>
+                    <div class="price">
+                        <p>₹29 Crore</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img style="width: 365px;"
+                    src="https://images.unsplash.com/photo-1590362891991-f776e747a588?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGNhcnxlbnwwfHwwfHx8MA%3D%3D"
+                    alt="McLaren P1">
+                <div class="details">
+                    <p class="car-name">McLaren P1</p>
+                    <div class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p>(9k Reviews)</p>
+                    </div>
+                    <div class="feature">
+                        <p><i class="fa-solid fa-chair"></i> 2-Seater</p>
+                        <p><i class="fa-solid fa-charging-station"></i> Plug-in Hybrid System</p>
+                        <p><i class="fa-solid fa-car-battery"></i> 903 Horsepower</p>
+                        <p><i class="fa-solid fa-cable-car"></i> Top Speed of 350 km/h</p>
+                        <p><i class="fa-solid fa-car-side"></i> Advanced Aerodynamics</p>
+                        <p><i class="fa-solid fa-caravan"></i> Carbon Fiber Monocoque</p>
+                    </div>
+                    <div class="price">
+                        <p>₹16 Crore</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img style="width: 365px;"
+                    src="https://images.unsplash.com/photo-1541443131876-44b03de101c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGNhcnxlbnwwfHwwfHx8MA%3D%3D"
+                    alt="Aston Martin Valkyrie">
+                <div class="details">
+                    <p class="car-name">Aston Martin Valkyrie</p>
+                    <div class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p>(7k Reviews)</p>
+                    </div>
+                    <div class="feature">
+                        <p><i class="fa-solid fa-chair"></i> 2-Seater</p>
+                        <p><i class="fa-solid fa-charging-station"></i> 6.5L V12 Engine</p>
+                        <p><i class="fa-solid fa-car-battery"></i> 1,160 Horsepower</p>
+                        <p><i class="fa-solid fa-cable-car"></i> Top Speed of 402 km/h</p>
+                        <p><i class="fa-solid fa-car-side"></i> F1-Inspired Aerodynamics</p>
+                        <p><i class="fa-solid fa-caravan"></i> Full Carbon Fiber Structure</p>
+                    </div>
+                    <div class="price">
+                        <p>₹45 Crore</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn">
+                <button>View All</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="support-sec">
+        <div class="txt">
+            <p class="txt1">Why <span>Choose</span> Us?</p>
+            <p>We offer unmatched quality, innovation, and customer service. Our team is dedicated to providing top-tier products and exceptional experiences, ensuring your satisfaction every step of the way.</p>
+        </div>
+    </section>
+
+    <div class="main-sec">
+        <div class="box">
+            <i class="fa-solid fa-phone"></i>
+            <div class="txt-sec">
+                <p class="txt1">24/7 Customer Support</p>
+                <p>Our dedicated support team is available around the clock to assist you with any inquiries or concerns. Whether it's day or night, we're here to ensure your experience is seamless and hassle-free.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fa-solid fa-flag-checkered"></i>
+            <div class="txt-sec">
+                <p class="txt1">Unbeatable Prices</p>
+                <p>We guarantee the best value for your investment. Our pricing is designed to offer you top-quality products without compromising on affordability. Get the best deal, every time!</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fa-solid fa-certificate"></i>
+            <div class="txt-sec">
+                <p class="txt1">Certified & Verified</p>
+                <p>We are fully licensed and certified, ensuring that our services meet the highest industry standards. Our verified credentials provide peace of mind, guaranteeing trust and reliability in everything we do.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fa-regular fa-circle-xmark"></i>
+            <div class="txt-sec">
+                <p class="txt1">Free Cancellation</p>
+                <p>Enjoy peace of mind with our flexible cancellation policy. If your plans change, you can cancel without any extra charges, ensuring a hassle-free experience from start to finish.</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="achie-sec">
+        <div class="txt">
+            <p class="txt1">Our <span class="highlight">Achievements</span></p>
+            <p class="description">We are proud of our accomplishments. From groundbreaking innovations to excellence in various domains, our journey continues to inspire and make a lasting impact.</p>
+        </div>
+    
+        <div class="main-sec">
+            <div class="box">
+                <p class="txt1">4000+</p>
+                <p class="sub-text">Active Members</p>
+                <p class="description">Join a thriving community committed to growth, innovation, and collaboration.</p>
+            </div>
+    
+            <div class="box">
+                <p class="txt1">3000+</p>
+                <p class="sub-text">Car Colors Available</p>
+                <p class="description">Explore a wide variety of car colors that fit your unique style and personality.</p>
+            </div>
+    
+            <div class="box">
+                <p class="txt1">6000+</p>
+                <p class="sub-text">Car Models Available</p>
+                <p class="description">Choose from an extensive selection of car models tailored to your preferences and needs.</p>
+            </div>
+    
+            <div class="box">
+                <p class="txt1">10k+</p>
+                <p class="sub-text">Positive Ratings</p>
+                <p class="description">Our commitment to quality and service is reflected in the thousands of positive ratings from satisfied customers.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="start-sec">
+        <div class="main-sec">
+            <div class="left">
+                <p class="txt1">Ready to Get Started?</p>
+                <p class="txt2">We’re here to help you take the next step. Whether you're looking for more information or ready to dive in, we’ve got you covered with expert guidance and support.</p>
+                <div class="btn">
+                    <button>Contact Us</button>
+                </div>
+            </div>
+            <div class="right">
+                <img src="verna.png" alt="Car Model">
+            </div>
+        </div>
+    </section>
+    
+    <footer class="foot-sec">
+        <div class="logo">
+            <h1>Suraj Sharma</h1>
+        </div>
+    
+        <div class="copy">
+            <p>&copy; 2024 Suraj Sharma. All Rights Reserved.</p>
+        </div>
+    
+        <div class="item">
+            <a href="/" class="footer-link">Website Terms</a>
+            <a href="/" class="footer-link">Contact Us</a>
+            <a href="/" class="footer-link">Privacy Policy</a>
+        </div>
+    </footer>
+</body>
+
+</html>
